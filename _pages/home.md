@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: default
 title: Welcome
 permalink: /
+nav: False
 ---
 
 # Welcome to the Integrated Phenomics Lab
