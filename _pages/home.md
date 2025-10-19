@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: Welcome
 permalink: /
 nav: False
