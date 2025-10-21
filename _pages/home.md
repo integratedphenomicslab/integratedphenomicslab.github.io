@@ -19,8 +19,8 @@ latest_posts:
 ---
 
 <div class="header-bar">
-  <h1>PhenoMatrix Lab</h1>
-  <h2>Leveraging Multimodal AI for Rare Disease Diagnostics</h2>
+  <h1>{{ site.title }}</h1>
+  <h2>{{ site.description }}</h2>
   {% include blog_tags.html %}
 </div>
 
