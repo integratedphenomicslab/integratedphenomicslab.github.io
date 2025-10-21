@@ -21,9 +21,9 @@ latest_posts:
 <div class="header-bar">
   <h1>{{ site.title }}</h1>
   <h2>{{ site.description }}</h2>
-  {% include blog_tags.html %}
 </div>
 
+{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
 ## Key Research Areas
 - Computational Phenotyping
