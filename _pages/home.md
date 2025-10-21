@@ -18,9 +18,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# Welcome to the Integrated Phenomics Lab
+<div class="header-bar">
+  <h1>PhenoMatrix Lab</h1>
+  <h2>Leveraging Multimodal AI for Rare Disease Diagnostics</h2>
+  {% include blog_tags.html %}
+</div>
 
-Our lab focuses on leveraging multimodal data, including facial images, genomic data, and clinical records, to advance the diagnostic journey for rare diseases.
 
 ## Key Research Areas
 - Computational Phenotyping
