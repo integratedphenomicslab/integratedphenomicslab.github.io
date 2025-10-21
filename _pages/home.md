@@ -27,4 +27,4 @@ Our lab focuses on leveraging multimodal data, including facial images, genomic 
 - AI in Medical Genomics
 - Multimodal Data Integration
 
-[See our latest publications](/publications/) or [meet the team](/about/).
+[meet the team](/about/).
