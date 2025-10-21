@@ -23,7 +23,7 @@ latest_posts:
   <h2>{{ site.description }}</h2>
 </div>
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+{% if site.display_tags and site.display_tags.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
@@ -35,24 +35,7 @@ latest_posts:
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
-      {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
   {% endif %}
 
-## Key Research Areas
-- Computational Phenotyping
-- AI in Medical Genomics
-- Multimodal Data Integration
 
 [meet the team](/about/).
