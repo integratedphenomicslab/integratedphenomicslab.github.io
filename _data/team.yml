@@ -1,0 +1,46 @@
+# _data/team.yml
+
+- name: Tzung-Chien Hsieh
+  role: Principal Investigator
+  image_path: /assets/img/team/tchsieh.jpg
+  links:
+    - type: email
+      url: "mailto:your-email@example.com"
+    - type: google-scholar
+      url: "https://scholar.google.com/..."
+    - type: github
+      url: "https://github.com/your-username"
+    - type: website
+      url: "https://your-personal-site.com"
+
+- name: Jane Doe
+  role: Postdoctoral Researcher
+  image_path: /assets/img/team/jane_doe.jpg
+  links:
+    - type: email
+      url: "mailto:jane@example.com"
+    - type: google-scholar
+      url: "https://scholar.google.com/..."
+
+- name: John Smith
+  role: PhD Student
+  image_path: /assets/img/team/john_smith.jpg
+  links:
+    - type: email
+      url: "mailto:john@example.com"
+    - type: github
+      url: "https://github.com/johnsmith"
+
+- name: Emily White
+  role: PhD Student
+  image_path: /assets/img/team/emily_white.jpg
+  links:
+    - type: email
+      url: "mailto:emily@example.com"
+
+- name: Former Member
+  role: Alumni
+  image_path: /assets/img/team/alumni1.jpg
+  # 可以沒有 links 欄位
+
+# ...繼續新增其他成員...
