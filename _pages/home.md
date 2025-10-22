@@ -36,6 +36,8 @@ latest_posts:
         {% endunless %}
       {% endfor %}
   {% endif %}
+    </ul>
+  </div>
 
 
 [meet the team](/about/).
