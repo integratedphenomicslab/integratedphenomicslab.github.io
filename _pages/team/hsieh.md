@@ -12,9 +12,16 @@ profile: true
 </div>
 
 <div class="col-sm-8 order-sm-first">
-        <h3>Dr. Tzung-Chien Hsieh</h3>
-        <p class="lead">Short Introduction</p>
-        <p>Email: tzung.chien.hsieh "at" gmail.com</a></p>
+<p class="text-justify">Dr. Tzung-Chien Hsieh is currently a Principal Investigator at the University Hospital of Bonn, Germany. He received his Ph.D. in Computer Science from the University of Bonn[cite: 13], specializing in the application of artificial intelligence and computer vision in precision medicine.</p>
+        <p class="text-justify">His research focuses on developing Next-Generation Phenotyping (NGP) tools to facilitate the diagnosis of rare genetic disorders. He is the core developer of <strong>GestaltMatcher</strong>, a deep learning framework that analyzes facial dysmorphology to overcome the limitations of traditional clinical genetic diagnosis.</p>
+
+<h6 class="mt-4 font-weight-bold">Research Interests</h6>
+        <ul class="mb-4">
+            <li>Medical Image Analysis & Computer Vision</li>
+            <li>Artificial Intelligence in Genomic Medicine</li>
+            <li>Rare Disease Diagnosis & Next-Generation Phenotyping</li>
+            <li>Multimodal Machine Learning</li></ul>
+<p>Email: tzung.chien.hsieh "at" gmail.com</p>
 </div>
 
 </div>
@@ -22,8 +29,6 @@ profile: true
 
 ## Research and Working Experience
 
-| Period | Position / Institution |
-| :--- | :--- |
 | **07.2022 - Present** | **Postdoctoral Researcher**, University Hospital of Bonn, Germany |
 | **05.2017 - 07.2022** | **Scientific Researcher**, University Hospital of Bonn, Germany |
 | **04.2019** | **Visiting Scientist**, FDNA Inc., USA  |
@@ -36,8 +41,6 @@ profile: true
 
 ## Education
 
-| Period | Degree / Institution |
-| :--- | :--- |
 | **05.2017 - 07.2022** | **Ph.D. student of Computer Science**, University of Bonn, Germany |
 | **09.2011 - 09.2013** | **Master of Computer Science**, National Taiwan University, Taiwan |
 | **09.2007 - 06.2011** | **Bachelor of Computer Science**, National Taiwan University, Taiwan |
@@ -65,8 +68,6 @@ profile: true
 
 ## Awards
 
-| Date | Award |
-| :--- | :--- |
 | **12.2021** | **Best Poster Award**, Annual meeting of Arbeitsgemeinschaft für Gen-Diagnostik, Germany |
 | **12.2020** | **Best Poster Award**, Annual meeting of Arbeitsgemeinschaft für Gen-Diagnostik, Germany |
 | **04.2016** | **Scholarship**, Graduate School of Computer Science, Saarland University, Germany |
