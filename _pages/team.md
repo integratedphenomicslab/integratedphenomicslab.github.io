@@ -20,7 +20,7 @@ horizontal: false
   
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mb-5">
   {% for member in current_members %} 
-    <div class="col">
+    <div class="col mb-5">
       <div class="card h-100 border-0 text-center">
         {% if member.profile_url %}
           <a href="{{ site.baseurl }}{{ member.profile_url }}" title="{{ member.name }}'s Profile">
@@ -85,7 +85,7 @@ horizontal: false
   
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
   {% for member in alumni_members %} 
-    <div class="col">
+    <div class="col mb-5">
       <div class="card h-100 border-0 text-center">
         {% if member.profile_url %}
           <a href="{{ site.baseurl }}{{ member.profile_url }}" title="{{ member.name }}'s Profile">
