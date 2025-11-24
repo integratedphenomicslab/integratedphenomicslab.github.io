@@ -12,7 +12,7 @@ horizontal: false
 
 {% if team_members %}
 
-  <h2 class="mt-4">所有成員</h2>
+  <h2 class="mt-4">All Members</h2>
   <hr>
   
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
