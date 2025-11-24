@@ -9,8 +9,8 @@
       url: "mailto:tzung.chien.hsieh@gmail.com"
     - type: google-scholar
       url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
+    - type: linkedin
+      url: "https://www.linkedin.com/in/tzung-chien-hsieh-47434999/"
 
 - name: Dr. Jing-Mei Li
   role: Postdoctoral Researcher
@@ -21,8 +21,8 @@
       url: "mailto:jmli@uni-bonn.de"
     - type: google-scholar
       url: "https://scholar.google.com/citations?hl=en&user=qNWaXagAAAAJ"
-    - type: github
-      url: "https://github.com/heidilitw"
+    - type: linkedin
+      url: "https://www.linkedin.com/in/jing-mei-li-9a365299/"
       
 - name: Beatriz de Carvalho Nunes
   role: Student Assistant
