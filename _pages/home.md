@@ -25,7 +25,7 @@ latest_posts:
 
 {% if site.display_tags and site.display_tags.size > 0 %}
 
-  <div class="tag-category-list">
+  <div class="tag-category-list" style="margin-bottom: 60px;">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
@@ -35,7 +35,7 @@ latest_posts:
           <p>&bull;</p>
         {% endunless %}
       {% endfor %}
-  {% endif %}
     </ul>
   </div>
 
+{% endif %}
