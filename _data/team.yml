@@ -11,39 +11,22 @@
       url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
     - type: github
       url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
 
 - name: Dr. Jing-Mei Li
-  role: Researcher
-  image_path: /assets/img/team/jane_doe.jpg
+  role: Postdoctoral Researcher
+  image_path: /assets/img/team/Li.webp
   profile_url: /team/Li/
   links:
     - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
+      url: "mailto:jmli@uni-bonn.de"
     - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
+      url: "https://scholar.google.com/citations?hl=en&user=qNWaXagAAAAJ"
     - type: github
       url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
       
 - name: Beatriz de Carvalho Nunes
   role: Student Assistant
   image_path: /assets/img/team/john_smith.jpg
-  links:
-    - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
-    - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
-
-- name: Anna Rose Johny
-  role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -80,19 +63,6 @@
     - type: website
       url: "https://your-personal-site.com"
 
-- name: Aswinkumar Vijayanath
-  role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
-  links:
-    - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
-    - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
-
 - name: Yu-Chen Chang
   role: Student Assistant
   image_path: /assets/img/team/emily_white.jpg
@@ -105,3 +75,11 @@
       url: "tzung.chien.hsieh@gmail.com"
     - type: website
       url: "https://your-personal-site.com"
+
+- name: Aswinkumar Vijayanath
+  role: Student Assistant
+  image_path: /assets/img/team/emily_white.jpg
+
+- name: Anna Rose Johny
+  role: Student Assistant
+  image_path: /assets/img/team/emily_white.jpg
