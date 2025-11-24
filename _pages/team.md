@@ -61,7 +61,7 @@ horizontal: false
             {% elsif link.type == 'website' %}
             <a href="{{ link.url }}" class="text-decoration-none" target="_blank" title="Personal Website"><i class="fas fa-globe"></i></a>
             {% elsif link.type == 'linkedin' %}
-            <a href="{{ link.url }}" class="text-decoration-none" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="{{ link.url }}" class="text-decoration-none" target="_blank" title="linkedin"><i class="fab fa-linkedin"></i></a>
             {% elsif link.type == 'twitter' %}
             <a href="{{ link.url }}" class="text-decoration-none" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
             {% elsif link.type == 'resume' %}
