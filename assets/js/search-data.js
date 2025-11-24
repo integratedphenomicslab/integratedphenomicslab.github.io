@@ -369,7 +369,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-dr-tzung-chien-hsieh-is-honored-to-be-an-invited-speaker-at-the-55th-child-neurology-society-annual-meeting",
+            },},{id: "news-dr-tzung-chien-hsieh-is-participating-the-dbcls-biohackathon-2025-in-mie-japan",
+          title: 'Dr. Tzung-Chien Hsieh is participating the  DBCLS BioHackathon 2025 in Mie, Japan.',
+          description: "",
+          section: "News",},{id: "news-dr-tzung-chien-hsieh-is-honored-to-be-an-invited-speaker-at-the-55th-child-neurology-society-annual-meeting",
           title: 'Dr. Tzung-Chien Hsieh is honored to be an invited speaker at the 55th...',
           description: "",
           section: "News",},{id: "news-dr-tzung-chien-hsieh-is-participating-in-the-6th-bcm-cuhk-zju-joint-symposium-in-clinical-genetics-2025",
