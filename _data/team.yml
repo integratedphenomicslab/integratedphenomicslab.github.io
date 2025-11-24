@@ -4,6 +4,7 @@
   role: Principal Investigator
   image_path: /assets/img/team/Hiseh.webp
   profile_url: /team/Hsieh/
+  status: current
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -16,6 +17,7 @@
   role: Postdoctoral Researcher
   image_path: /assets/img/team/Li.webp
   profile_url: /team/Li/
+  status: current
   links:
     - type: email
       url: "mailto:jmli@uni-bonn.de"
@@ -26,7 +28,7 @@
       
 - name: Beatriz de Carvalho Nunes
   role: Student Assistant
-  image_path: /assets/img/team/john_smith.jpg
+  status: current
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -39,7 +41,7 @@
 
 - name: Hanna Weil
   role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
+  status: current
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -52,7 +54,7 @@
 
 - name: Hellen Lessman
   role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
+  status: current
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -65,7 +67,7 @@
 
 - name: Yu-Chen Chang
   role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
+  status: current
   links:
     - type: email
       url: "mailto:tzung.chien.hsieh@gmail.com"
@@ -78,8 +80,8 @@
 
 - name: Aswinkumar Vijayanath
   role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
+  status: alumni
 
 - name: Anna Rose Johny
   role: Student Assistant
-  image_path: /assets/img/team/emily_white.jpg
+  status: alumni
