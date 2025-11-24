@@ -7,38 +7,40 @@
         style="max-height: 60vw"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm">
         {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
           {% assign news_limit = news_size %}
         {% endif %}
+        
         {% for item in news limit: news_limit %}
           <tr>
-            <td style="border: none; padding-bottom: 30px;">
+            <td class="p-3" style="border-top: 1px solid #e0e0e0;"> 
               
               <div class="d-flex align-items-start">
                 
                 {% if item.img %}
-                  <div class="news-image mr-4" style="flex-shrink: 0; width: 120px; height: 120px;">
+                  <div class="news-image mr-4" style="flex-shrink: 0; width: 150px; height: 120px;">
                     <img src="{{ item.img | relative_url }}" 
                          alt="news item" 
                          class="img-fluid rounded" 
-                         style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                         style="width: 100%; height: 100%; object-fit: cover;">
                   </div>
                 {% endif %}
+                
                 <div class="news-content d-flex flex-column" style="flex: 1;">
                   
-                  <div class="news-date text-dark font-weight-bold mb-2" style="font-size: 16px;">
+                  <div class="news-date font-weight-bold text-dark mb-2">
                     {{ item.date | date: "%b %d, %Y" }}
                   </div>
 
-                  <div class="news-description" style="font-size: 16px; color: #666; line-height: 1.6;">
+                  <div class="news-description" style="font-size: 0.95rem; color: #4a4a4a;">
                     {% if item.inline %}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {% else %}
-                      <a class="news-title" href="{{ item.url | relative_url }}" style="color: inherit; text-decoration: none;">
+                      <a class="news-title text-dark" href="{{ item.url | relative_url }}" style="text-decoration: none;">
                         {{ item.title }}
                       </a>
                     {% endif %}
