@@ -12,7 +12,7 @@ profile: true
 </div>
 
 <div class="col-sm-8 order-sm-first">
-<p class="text-justify">Dr. Tzung-Chien Hsieh is currently a Principal Investigator at the University Hospital of Bonn, Germany. He received his Ph.D. in Computer Science from the University of Bonn[cite: 13], specializing in the application of artificial intelligence and computer vision in precision medicine.</p>
+<p class="text-justify">Dr. Tzung-Chien Hsieh is currently a Principal Investigator at the University Hospital of Bonn, Germany. He received his Ph.D. in Computer Science from the University of Bonn, specializing in the application of artificial intelligence and computer vision in precision medicine.</p>
         <p class="text-justify">His research focuses on developing Next-Generation Phenotyping (NGP) tools to facilitate the diagnosis of rare genetic disorders. He is the core developer of <strong>GestaltMatcher</strong>, a deep learning framework that analyzes facial dysmorphology to overcome the limitations of traditional clinical genetic diagnosis.</p>
 
 <h6 class="mt-4 font-weight-bold">Research Interests</h6>
