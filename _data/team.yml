@@ -27,30 +27,24 @@
       url: "https://www.linkedin.com/in/jing-mei-li-9a365299/"
       
 - name: Beatriz de Carvalho Nunes
-  role: Student Assistant
+  role: Ph.D. student
   status: current
   links:
     - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
+      url: "mailto:beatriz.nunes@unifesp.br"
     - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
+      url: "https://scholar.google.com.br/citations?user=m1QYmBgAAAAJ&hl=pt-BR&oi=ao"
+    - type: linkedin
+      url: "https://www.linkedin.com/in/beatrizdecarvalhonunes/"
 
 - name: Hanna Weil
-  role: Student Assistant
+  role:
   status: current
   links:
     - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
-    - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
+      url: "mailto:s4haweil@uni-bonn.de"
+    - type: linkedin
+      url: "www.linkedin.com/in/hannah-k-weiland-a71b85260"
 
 - name: Hellen Lessman
   role: Student Assistant
@@ -70,14 +64,13 @@
   status: current
   links:
     - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
-    - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
+      url: "mailto:yu-chen.chang@student.hu-berlin.de"
 
+- name: Ting-Chun Lin, MD
+  role: Doctoral Student (Dr. med.)
+  status: current
+  links:
+    
 - name: Aswinkumar Vijayanath
   role: Student Assistant
   status: alumni
