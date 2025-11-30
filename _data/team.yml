@@ -28,6 +28,8 @@
       
 - name: Beatriz de Carvalho Nunes
   role: Ph.D. student
+  image_path: /assets/img/team/Beatriz.jpg
+  profile_url: /team/hsieh/
   status: current
   links:
     - type: email
@@ -40,6 +42,7 @@
 - name: Hanna Weil
   role:
   status: current
+  image_path: /assets/img/team/Hannah.jpeg
   links:
     - type: email
       url: "mailto:s4haweil@uni-bonn.de"
@@ -69,6 +72,7 @@
 - name: Ting-Chun Lin, MD
   role: Doctoral Student (Dr. med.)
   status: current
+  image_path: /assets/img/team/TCLin.jpg
   links:
     
 - name: Aswinkumar Vijayanath
