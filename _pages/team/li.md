@@ -6,16 +6,13 @@ nav: false
 profile: true
 ---
 <div class="row align-items-center">
-    
 <div class="col-sm-4 order-sm-last text-center mb-3 mb-sm-0">
-        <img src="{{ site.baseurl }}/assets/img/team/Li.webp" class="img-fluid rounded shadow-sm" alt="Jing-Mei Li">
+  <img src="{{ site.baseurl }}/assets/img/team/Li.webp" class="img-fluid rounded shadow-sm" alt="Jing-Mei Li">
 </div>
-
 <div class="col-sm-8 order-sm-first">
-<p class="text-justify">Dr. Jing-Mei Li is currently a Postdoc Researcher and Software Engineer at the Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn. She received her Ph.D. in Chemical Engineering from National Tsing Hua University, Taiwan.</p>
-<p class="text-justify">Her current work involves developing deep learning platforms for genetic clinicians, specifically the GestaltMatcher Database.</p>
+  <p class="text-justify">Dr. Jing-Mei Li is currently a Postdoc Researcher and Software Engineer at the Institute for Genomic Statistics and Bioinformatics, University Hospital Bonn. She received her Ph.D. in Chemical Engineering from National Tsing Hua University, Taiwan</p>
+  <p class="text-justify">Her current work involves developing deep learning platforms for genetic clinicians, specifically the GestaltMatcher Database.</p>
 </div>
-
 </div>
 ---
 
