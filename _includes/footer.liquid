@@ -1,16 +1,3 @@
-{% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
-{% endcapture %}
-
 {% capture home_logos %}
   <div class="d-flex justify-content-center align-items-center my-3">
     <a href="https://www.igsb.uni-bonn.de/en" target="_blank" class="mx-4">
@@ -22,31 +9,20 @@
   </div>
 {% endcapture %}
 
+{% if page.permalink == '/' %}
 
-{% if site.footer_fixed %}
-  <footer class="fixed-bottom" role="contentinfo">
-    <div class="container mt-0">
-      {% if page.permalink == '/' %}
+  {% if site.footer_fixed %}
+    <footer class="fixed-bottom" role="contentinfo">
+      <div class="container mt-0">
         {{ home_logos }}
-      {% else %}
-        {{ footer_contents }}
-      {% endif %}
-    </div>
-  </footer>
-{% else %}
-  <footer class="sticky-bottom mt-5" role="contentinfo">
-    {% if page.permalink == '/' %}
-       <div class="container">
-         {{ home_logos }}
-       </div>
-    {% else %}
-       {% if site.newsletter.enabled %}
-         {% include newsletter.liquid %}
-       {% endif %}
+      </div>
+    </footer>
+  {% else %}
+    <footer class="sticky-bottom mt-5" role="contentinfo">
+      <div class="container">
+        {{ home_logos }}
+      </div>
+    </footer>
+  {% endif %}
 
-       <div class="container">
-         {{ footer_contents }}
-       </div>
-    {% endif %}
-  </footer>
 {% endif %}
