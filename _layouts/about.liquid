@@ -63,5 +63,17 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+    <!-- logo -->
+    {% if page.permalink == '/' %}
+    <div class="d-flex justify-content-center align-items-center my-3">
+      <a href="https://www.igsb.uni-bonn.de/en" target="_blank" class="mx-4">
+        <img src="{{ site.baseurl }}/assets/img/logo-IGSB.jpg" alt="Institute for Genomic Statistics and Bioinformatics" style="max-height: 80px; width: auto;">
+      </a>
+      <a href="https://www.ukbonn.de/" target="_blank" class="mx-4">
+        <img src="{{ site.baseurl }}/assets/img/logo-UKB.svg" alt="Universitätsklinikums Bonn" style="max-height: 80px; width: auto;">
+      </a>
+    </div>
+    {% endif %}
+
   </article>
 </div>
