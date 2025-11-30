@@ -39,3 +39,15 @@ latest_posts:
   </div>
 
 {% endif %}
+
+<div class="d-flex justify-content-center align-items-center mb-4" style="margin-top: 40px;">
+  
+  <a href="https://www.igsb.uni-bonn.de/en" target="_blank" class="mx-4">
+    <img src="{{ site.baseurl }}/assets/img/logo-IGSB.jpg" alt="Institute for Genomic Statistics and Bioinformatics" style="max-height: 80px; width: auto;">
+  </a>
+
+  <a href="https://www.ukbonn.de/" target="_blank" class="mx-4">
+    <img src="{{ site.baseurl }}/assets/img/logo-UKB.svg" alt="Universitätsklinikums Bonn" style="max-height: 80px; width: auto;">
+  </a>
+
+</div>
