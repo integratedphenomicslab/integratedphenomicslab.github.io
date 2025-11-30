@@ -1,28 +1,30 @@
-{% capture home_logos %}
-  <div class="d-flex justify-content-center align-items-center my-3">
-    <a href="https://www.igsb.uni-bonn.de/en" target="_blank" class="mx-4">
-    <img src="{{ site.baseurl }}/assets/img/logo-IGSB.jpg" alt="Institute for Genomic Statistics and Bioinformatics" style="max-height: 80px; width: auto;">
-  </a>
-  <a href="https://www.ukbonn.de/" target="_blank" class="mx-4">
-    <img src="{{ site.baseurl }}/assets/img/logo-UKB.svg" alt="Universitätsklinikums Bonn" style="max-height: 80px; width: auto;">
-  </a>
-  </div>
+{% capture footer_contents %}
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
 {% endcapture %}
 
-{% if page.permalink == '/' %}
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {{ footer_contents }}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
 
-  {% if site.footer_fixed %}
-    <footer class="fixed-bottom" role="contentinfo">
-      <div class="container mt-0">
-        {{ home_logos }}
-      </div>
-    </footer>
-  {% else %}
-    <footer class="sticky-bottom mt-5" role="contentinfo">
-      <div class="container">
-        {{ home_logos }}
-      </div>
-    </footer>
-  {% endif %}
-
+    <div class="container">
+      {{ footer_contents }}
+    </div>
+  </footer>
 {% endif %}
