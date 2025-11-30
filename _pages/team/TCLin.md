@@ -19,6 +19,7 @@ profile: true
 ---
 
 ## Education
+
 | Since 10.2020 | Postgraduate Training in General Medicine (Facharztweiterbildung Allgemeinmedizin), – Clinical experience in internal medicine, orthopedics, surgery, rehabilitation, psychosomatic medicine and family medicine according to WBO Berlin |
 | 09.2019 | German Medical License (Approbation)  |
 | 09.2010 - 06.2017 | M.D. in Human Medicine, National Yang Ming University, Taipei, Taiwan  |
@@ -27,6 +28,7 @@ profile: true
 ---
 
 ## Certificates / Additional Training
+
 | 02.2025 - Present | Basic Training in Acupuncture (A-Diploma), German Medical Acupuncture Association (DÄGFA), Berlin  |
 | 07.2024 | Advanced Life Support, Charité University Hospital Berlin  |
 | 03.2024 | Skin Cancer Screening, German Association of General Practitioners (Deutscher Hausärzteverband), Berlin  |
@@ -38,6 +40,7 @@ profile: true
 ---
 
 ## Professional Memberships
+
 - German Society for General and Family Medicine (DEGAM) 
 - German Association of General Practitioners (Deutscher Hausärzteverband) 
 - German Medical Acupuncture Association (DÄGFA) 
