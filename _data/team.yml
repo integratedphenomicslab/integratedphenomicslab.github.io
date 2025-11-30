@@ -29,7 +29,7 @@
 - name: Beatriz de Carvalho Nunes
   role: Ph.D. student
   image_path: /assets/img/team/Beatriz.jpg
-  profile_url: /team/hsieh/
+  profile_url: /team/beatriz_nunes/
   status: current
   links:
     - type: email
@@ -53,14 +53,6 @@
   role: Student Assistant
   status: current
   links:
-    - type: email
-      url: "mailto:tzung.chien.hsieh@gmail.com"
-    - type: google-scholar
-      url: "https://scholar.google.com/citations?user=XNXSgisAAAAJ"
-    - type: github
-      url: "tzung.chien.hsieh@gmail.com"
-    - type: website
-      url: "https://your-personal-site.com"
 
 - name: Yu-Chen Chang
   role: Student Assistant
@@ -73,6 +65,7 @@
   role: Doctoral Student (Dr. med.)
   status: current
   image_path: /assets/img/team/TCLin.jpg
+  profile_url: /team/lin/
   links:
     
 - name: Aswinkumar Vijayanath
