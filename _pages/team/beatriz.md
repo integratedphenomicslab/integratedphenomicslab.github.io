@@ -1,7 +1,7 @@
 ---
 layout: page
 title: B.Sc. Beatriz Carvalho Nunes
-permalink: /team/beatriz_nunes
+permalink: /team/beatriz_nunes/
 nav: false
 profile: true
 ---
