@@ -51,6 +51,7 @@
 
 - name: Hellen Lesmann, MD
   role: Medical Doctor (Human Genetics)
+  image_path: /assets/img/team/Hellen.jpeg
   status: current
   links:
     - type: linkedin
