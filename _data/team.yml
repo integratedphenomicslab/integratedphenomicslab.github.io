@@ -49,10 +49,13 @@
     - type: linkedin
       url: "www.linkedin.com/in/hannah-k-weiland-a71b85260"
 
-- name: Hellen Lessman
-  role: Student Assistant
+- name: Hellen Lesmann, MD
+  role: Medical Doctor (Human Genetics)
   status: current
   links:
+    - type: linkedin
+      url: "https://www.linkedin.com/in/hellen-lesmann-578529276/"
+
 
 - name: Yu-Chen Chang
   role: Student Assistant
