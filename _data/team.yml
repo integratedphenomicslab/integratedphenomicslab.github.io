@@ -39,8 +39,8 @@
     - type: linkedin
       url: "https://www.linkedin.com/in/beatrizdecarvalhonunes/"
 
-- name: Hanna Weil
-  role:
+- name: Hannah Weiland
+  role: Medical Student
   status: current
   image_path: /assets/img/team/Hannah.jpeg
   links:
