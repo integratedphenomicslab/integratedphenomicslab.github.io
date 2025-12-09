@@ -9,7 +9,9 @@ last_name: Hsieh
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Leveraging Multimodal AI for Rare Disease Diagnostics.
+  The Hsieh Lab focuses on multimodal artificial intelligence for rare disease diagnostics. 
+  By combining facial analysis, clinical phenotypes, and genomic data, we build tools that help clinicians recognize rare disorders earlier and more accurately. 
+  Our group is based at the Institute for Genomic Statistics and Bioinformatics (IGSB), University Hospital Bonn
 footer_text:
 keywords: next-generation phenotyping, GestaltMatcher, medical image analysis, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
