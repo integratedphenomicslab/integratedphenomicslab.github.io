@@ -47,7 +47,7 @@
     - type: email
       url: "mailto:s4haweil@uni-bonn.de"
     - type: linkedin
-      url: "www.linkedin.com/in/hannah-k-weiland-a71b85260"
+      url: "https://www.linkedin.com/in/hannah-k-weiland-a71b85260"
 
 - name: Hellen Lesmann, MD
   role: Medical Doctor (Human Genetics)
@@ -64,6 +64,8 @@
   links:
     - type: email
       url: "mailto:yu-chen.chang@student.hu-berlin.de"
+    - type: linkedin
+      url: "https://www.linkedin.com/in/yu-chen-chang-835143b5/"
 
 - name: Ting-Chun Lin, MD
   role: Doctoral Student (Dr. med.)
