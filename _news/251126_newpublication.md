@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-11-26 12:30:00
-inline: true
+inline: false
 related_posts: false
 img: assets/img/251126_new_pub_pics.webp
 ---
