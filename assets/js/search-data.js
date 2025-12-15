@@ -378,10 +378,12 @@ ninja.data = [{
           section: "News",},{id: "news-dr-tzung-chien-hsieh-is-participating-in-the-6th-bcm-cuhk-zju-joint-symposium-in-clinical-genetics-2025",
           title: 'Dr. Tzung-Chien Hsieh is participating in the 6th BCM-CUHK-ZJU Joint Symposium in Clinical...',
           description: "",
-          section: "News",},{id: "news-new-publication-in-nature-communications-delineating-psmc5-related-disorders-we-are-proud-to-announce-our-participation-in-the-ups-nddiag-consortium-our-team-contributed-to-the-delineation-of-facial-phenotypes-in-individuals-with-psmc5-related-disorders-this-collaborative-effort-titled-investigating-the-neuronal-role-of-the-proteasomal-atpase-subunit-gene-psmc5-in-neurodevelopmental-proteasomopathies-has-been-published-in-nature-communications-we-extend-our-gratitude-to-sébastien-küry-and-all-co-authors-for-this-impactful-collaboration-read-the-paper",
-          title: 'New Publication in Nature Communications: Delineating PSMC5-related Disorders We are proud to announce...',
+          section: "News",},{id: "news-251126-newpublication",
+          title: '251126_newpublication',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/251126_newpublication/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
