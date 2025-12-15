@@ -18,7 +18,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="header-bar">
-  <h1>{{ site.title }}</h1>
-  <h4>{{ site.description }}</h4>
+<div class="header-bar text-center mt-4 mb-5 mx-auto">
+  <h1 class="display-4 font-weight-bold">{{ site.title }}</h1>
+  
+  <div class="d-flex justify-content-center">
+      <p class="lead text-muted mt-3" style="max-width: 750px; line-height: 1.6;">
+        {{ site.description }}
+      </p>
+  </div>
 </div>
