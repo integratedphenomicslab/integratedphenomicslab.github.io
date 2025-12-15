@@ -390,6 +390,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251126_newpublication/";
+            },},{id: "news-daad-taiwan-ppp-grant-for-deciface-2026-2027",
+          title: 'DAAD–Taiwan PPP Grant for DeciFace (2026–2027)',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/251215_DAAD/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
