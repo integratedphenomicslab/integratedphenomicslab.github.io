@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New Publication in Nature Communications: Delineating PSMC5-related Disorders
+title: "New Publication in Nature Communications: Delineating PSMC5-related Disorders"
 date: 2025-11-26 12:30:00
 inline: false
 related_posts: false
