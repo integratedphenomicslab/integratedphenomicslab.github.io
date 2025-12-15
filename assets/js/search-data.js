@@ -378,8 +378,8 @@ ninja.data = [{
           section: "News",},{id: "news-dr-tzung-chien-hsieh-is-participating-in-the-6th-bcm-cuhk-zju-joint-symposium-in-clinical-genetics-2025",
           title: 'Dr. Tzung-Chien Hsieh is participating in the 6th BCM-CUHK-ZJU Joint Symposium in Clinical...',
           description: "",
-          section: "News",},{id: "news-251126-newpublication",
-          title: '251126_newpublication',
+          section: "News",},{id: "news-",
+          title: '',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/251126_newpublication/";
