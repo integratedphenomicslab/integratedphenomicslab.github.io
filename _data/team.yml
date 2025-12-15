@@ -73,6 +73,11 @@
   image_path: /assets/img/team/TCLin.jpg
   profile_url: /team/lin/
   links:
+
+- name: Tsu-Yun Liao
+  role: Master Student
+  status: current
+  links:
     
 - name: Aswinkumar Vijayanath
   role: Student Assistant
