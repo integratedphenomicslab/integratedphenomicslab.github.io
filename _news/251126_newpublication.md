@@ -1,13 +1,10 @@
 ---
 layout: post
+title: New Publication in Nature Communications: Delineating PSMC5-related Disorders
 date: 2025-11-26 12:30:00
 inline: false
 related_posts: false
 img: assets/img/251126_new_pub_pics.webp
----
-
-New Publication in Nature Communications: Delineating PSMC5-related Disorders
-
 ---
 We are proud to announce our participation in the UPS-NDDiag consortium. Our team contributed to the delineation of facial phenotypes in individuals with PSMC5-related disorders.
 
